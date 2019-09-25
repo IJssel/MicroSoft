@@ -1,0 +1,208 @@
+/*定义变量*/
+.ms-nav {
+  border: none;
+}
+.ms-nav .container {
+  padding: 0;
+  /*修改导航项的样式*/
+}
+.ms-nav .container .navbar-toggle {
+  float: left;
+  border: 2px;
+}
+.ms-nav .container img {
+  width: 121px;
+}
+.ms-nav .container li a {
+  font-size: 13px;
+  border: 1px;
+  padding: 16px 8px 10px;
+}
+.ms-nav .container li a:hover::before {
+  position: absolute;
+  z-index: 0;
+  left: 20%;
+  bottom: 10px;
+  height: 2px;
+  width: 60%;
+  background-color: #e92322;
+  content: "";
+}
+.ms-nav .container .nav-down {
+  margin-right: 10px;
+}
+.ms-nav .container .nav-down .glyphicon-menu-down {
+  padding: 5px;
+  font-size: 10px;
+}
+.ms-nav .container .nav-menu {
+  margin-left: -550%;
+  right: -60%;
+  height: 259px;
+  padding-bottom: 10px;
+}
+.ms-nav .container .nav-menu .nav-menu-content {
+  padding: 0;
+  list-style: none;
+}
+.ms-nav .container .nav-menu .nav-menu-content .nav-menu-content {
+  padding: 24px 18px 30px 18px;
+  font-weight: 600px;
+}
+.ms-nav .container .nav-menu .nav-menu-content > li {
+  padding: 18px 30px 18px 24px;
+  height: 41px;
+}
+/*轮播图样式*/
+.wjs_banner .info-banner-left {
+  position: absolute;
+  top: 30%;
+  left: -45%;
+}
+.wjs_banner .info-banner-left .info-game-btn {
+  background: #000;
+  color: #fff;
+  height: 40px;
+  width: 125px;
+  margin-top: 15px;
+  border: 0;
+}
+.wjs_banner .mobileImg {
+  width: 100%;
+  display: block;
+}
+.wjs_banner .mobileImg > img {
+  width: 100%;
+  display: block;
+}
+.wjs_banner .pcImg {
+  width: 100%;
+  height: 410px;
+  display: block;
+  /*设置背景图片了*/
+  /*设置图片居中显示*/
+  background-position: center center;
+  /*设置背景图片的大小*/
+  background-size: cover;
+}
+/*信息块样式*/
+.wjs_info {
+  padding: 30px;
+  font-size: 15px;
+}
+.wjs_info .row > div {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.wjs_info .row > div h4 {
+  margin-top: 30px;
+  font-weight: 600;
+}
+.wjs_info .row > div a {
+  color: #0067b8;
+  font-weight: 600;
+}
+.wjs_info .row > div a:hover::before {
+  position: absolute;
+  z-index: 0;
+  left: 5%;
+  bottom: 0px;
+  height: 2px;
+  width: 20%;
+  background-color: #0067b8;
+  content: "";
+}
+.wjs_info .info-game {
+  position: relative;
+  margin-top: 50px;
+}
+.wjs_info .info-game .info-game-left {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+.wjs_info .info-game .info-game-left .info-game-btn {
+  background: #000;
+  color: #fff;
+  height: 40px;
+  width: 125px;
+  margin-top: 15px;
+  border: 0;
+}
+/*二维码*/
+.qtcode {
+  position: relative;
+  display: block;
+  margin-top: 40px;
+  height: 80px;
+  border: 0;
+}
+.qtcode span {
+  color: rgba(0, 0, 0, 0.6);
+}
+.qtcode img {
+  height: 28px;
+  margin: 5px;
+}
+.qtcode .qt {
+  display: none;
+  height: 117px;
+  top: 40px;
+  left: 15%;
+  position: absolute;
+  transform: translateX(-50%);
+  border: 1px solid #ccc;
+  border-top: none;
+  z-index: 999;
+}
+.qtcode:hover .qt {
+  display: block;
+}
+/*页脚*/
+.c-uhff-nav {
+  background-color: #f8f8f8;
+  border: 0;
+  font-size: 11px;
+  list-style: none;
+}
+.c-uhff-nav a:hover {
+  text-decoration: underline;
+}
+.c-uhff-nav .c-uhff-nav-group {
+  color: #616161;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 36px 0 4px;
+  font-weight: 800;
+}
+.c-uhff-nav .c-uhff-nav-group .c-list {
+  padding: 0;
+}
+.c-uhff-nav .c-uhff-nav-group .c-list li {
+  list-style: none;
+  line-height: 16px;
+  font-weight: 500;
+  padding: 8px 0;
+}
+.c-uhff-nav .foot {
+  height: 40px;
+}
+.c-uhff-nav .foot .foot-left {
+  float: left;
+  margin: 5px 0;
+}
+.c-uhff-nav .foot .foot-left .icon-diqiu {
+  font-size: 20px;
+}
+.c-uhff-nav .foot .foot-left span {
+  vertical-align: middle;
+}
+.c-uhff-nav .foot .foot-right {
+  float: right;
+}
+.c-uhff-nav .foot .foot-right > li {
+  list-style: none;
+  margin: 13px 0;
+  padding-right: 24px;
+  display: inline-block;
+}

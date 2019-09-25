@@ -1,0 +1,236 @@
+/*定义变量*/
+@baseColor:#e92322;
+
+.ms-nav{
+    border: none;
+    .container{
+        padding:0;  
+    .navbar-toggle{
+        float: left;
+        border:2px;
+    }
+    img{
+        width:121px;
+    }
+    // .navbar-nav{
+    //     height: 54px;
+    // }   
+
+    /*修改导航项的样式*/
+    li{
+        a{              
+            font-size: 13px;
+            border:1px;
+            padding: 16px 8px 10px;
+        }
+        a:hover::before{
+        position: absolute;
+        z-index: 0;
+        left: 20%;
+        bottom: 10px;
+        height: 2px;
+        width: 60%;
+        background-color: @baseColor;
+        content: "";
+        // transform: scale3d(0, 1, 1);
+        // transform-origin: left;
+        // transition: all 0.5s;
+        }
+    }
+    .nav-down{
+        margin-right: 10px;
+        .glyphicon-menu-down{
+            padding: 5px;
+            font-size: 10px;
+        }
+    }    
+                    
+    .nav-menu{
+    //    left:-800%;
+    margin-left: -550%;
+        right: -60%;
+        height: 259px;
+        padding-bottom: 10px;
+        .nav-menu-content{
+            padding:0;
+            list-style: none;
+            .nav-menu-content{
+                padding:24px 18px 30px 18px;
+                font-weight: 600px;
+            }
+            >li{
+                padding:18px 30px 18px 24px;
+                height: 41px;
+            }
+
+
+        } 
+    }
+}
+}
+
+/*轮播图样式*/
+.wjs_banner{
+    .info-banner-left{
+        position: absolute;
+        top: 30%; 
+        left: -45%;
+        .info-game-btn{
+            background: #000;
+            color: #fff;
+            height: 40px;
+            width:125px;
+            margin-top: 15px;
+            border: 0;
+        }
+    }
+    .mobileImg{
+      width: 100%;
+      display: block;
+    }
+    .mobileImg > img{
+      width: 100%;
+      display: block;
+    }
+    .pcImg{
+      width: 100%;
+      height: 410px;
+      display: block;
+      /*设置背景图片了*/
+  
+      /*设置图片居中显示*/
+      background-position: center center;
+      /*设置背景图片的大小*/
+      background-size: cover;
+    }
+  }
+
+  /*信息块样式*/
+.wjs_info{
+    padding: 30px;
+    font-size: 15px;
+    .row{
+      > div{
+        margin-top:20px;
+        margin-bottom: 30px;
+        h4{
+            margin-top:30px;
+            font-weight: 600;
+        }
+        a{
+            color: #0067b8;
+            font-weight: 600;
+        }
+        a:hover::before{
+            position: absolute;
+            z-index: 0;
+            left: 5%;
+            bottom: 0px;
+            height: 2px;
+            width: 20%;
+            background-color: #0067b8;
+            content: "";
+            }
+      }
+    }
+    .info-game{
+        position: relative;
+        margin-top: 50px;
+        .info-game-left{
+            position: absolute;
+            top: 30%; 
+            left: 5%;
+            .info-game-btn{
+                background: #000;
+                color: #fff;
+                height: 40px;
+                width:125px;
+                margin-top: 15px;
+                border: 0;
+            }
+        }
+    }
+  }
+
+/*二维码*/
+.qtcode{
+    position: relative;
+    display: block;
+    margin-top: 40px;
+    height: 80px;
+    border: 0;
+    span{
+        color: rgba(0,0,0,.6);
+    }
+    img{
+        height: 28px; 
+        margin:5px;
+    }
+    .qt{
+        display: none;
+        height: 117px;
+        top: 40px;
+        left: 15%;
+        position: absolute;
+        transform: translateX(-50%);
+        border: 1px solid #ccc;
+        border-top:none;
+        z-index: 999;
+    }
+    &:hover{
+       .qt{
+        display: block;
+      }
+    }
+  }
+
+/*页脚*/
+.c-uhff-nav{
+    background-color: #f8f8f8;
+    border: 0;
+    font-size: 11px;
+    list-style: none;
+    a:hover{
+        text-decoration:underline;
+    }
+    .c-uhff-nav-group{
+        color: #616161;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 36px 0 4px;
+        font-weight: 800;
+        .c-list{
+            padding: 0;
+            li{
+                list-style: none;
+                line-height: 16px;
+                font-weight: 500;
+                padding:8px 0;
+            }
+        }
+    }
+    .foot{
+        height: 40px;
+        .foot-left{
+            float: left;
+            margin:5px 0;
+            .icon-diqiu{
+                font-size: 20px;
+            }
+            span{
+                vertical-align: middle;
+            }
+        }
+        .foot-right{   
+            float: right;
+            >li{
+                list-style: none;
+                margin:13px 0;
+                padding-right: 24px;
+                display: inline-block;
+            }
+        }
+    }
+    
+}
+

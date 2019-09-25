@@ -1,0 +1,123 @@
+/*公共css样式*/
+body{
+    font-family: "Microsoft YaHei",sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    text-decoration: none;
+    color: #333;
+}
+/*左边距*/
+.m_l10{
+    margin-left: 65px;
+}
+/*右边距*/
+.m_r10{
+    margin-right: 65px;
+}
+/*自定义字体*/
+@font-face {
+    font-family: "iconfont";
+    src: url('../fonts/iconfont.eot'); /* IE9 */
+    src: url('../fonts/iconfont.eot') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/iconfont.woff') format('woff'),
+    url('../fonts/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('../fonts/iconfont.svg') format('svg'); /* iOS 4.1- */
+  }
+/*自定义字体使用样式*/
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 25px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-menuright:before {
+    content: "\e766";
+  }
+  
+  .icon-gouwudai:before {
+    content: "\e6e6";
+  }
+  
+  .icon-zhanghu2:before {
+    content: "\e602";
+  }
+  
+  .icon-biaodan:before {
+    content: "\e715";
+  }
+  
+  .icon-iconsearchright:before {
+    content: "\e6b3";
+  }
+  
+  .icon-aixin:before {
+    content: "\e601";
+  }
+  
+  .icon-shangcheng:before {
+    content: "\e617";
+  }
+  
+  .icon-sousuo:before {
+    content: "\e68b";
+  }
+  
+  .icon-danshuminghaozuo_xian:before {
+    content: "\e612";
+  }
+  
+  .icon-danshuminghaoyou_xian:before {
+    content: "\e613";
+  }
+  
+  .icon-icon_menu_down:before {
+    content: "\e6b0";
+  }
+  
+  .icon-icon_menu_up:before {
+    content: "\e6b1";
+  }
+  
+  .icon-gouwu:before {
+    content: "\e600";
+  }
+  
+  .icon-fangdajing:before {
+    content: "\e608";
+  }
+  
+  .icon-gouwuche:before {
+    content: "\e61a";
+  }
+  
+  .icon-yonghu_yuan_A:before {
+    content: "\e777";
+  }
+  
+  .icon-diqiu:before {
+    content: "\e660";
+  }
+  
+  .icon-zanting:before {
+    content: "\e605";
+  }
+  
+  .icon-yonghu:before {
+    content: "\e606";
+  }
+  
+  .icon-faxian:before {
+    content: "\e638";
+  }
+  
+  .icon-shangcheng1:before {
+    content: "\e60b";
+  }
